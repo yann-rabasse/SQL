@@ -3,7 +3,7 @@ SQL practice queries
 
 
 
-SELECT
+```SELECT
   id
   , name as first_name
   , surname
@@ -25,4 +25,4 @@ SELECT
   END AS average_basket 
 FROM `crucial-binder-437910-a7.Course14.gwz_customers` 
 WHERE name IN ("Paul","George")
-ORDER BY id
+ORDER BY id```
